@@ -7,6 +7,6 @@ image_size: 896
 mixed_precision: True
 #gradient_checkpointing: ["Add"]
 max_instances_per_image: 201
-gradient_checkpointing: false
+gradient_checkpointing: True
 nvgpu_logging: True
 clip_gradients_norm: 5.0
